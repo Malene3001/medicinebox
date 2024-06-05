@@ -3,8 +3,8 @@ import ntptime
 import utime
 from machine import Pin
 
-SSID = 'LollandsNet_8D1A'
-PASSWORD = '09693944'
+SSID = ''
+PASSWORD = ''
 
 button = Pin(12, Pin.IN, Pin.PULL_UP)
 TIMEZONE_OFFSET = 2
